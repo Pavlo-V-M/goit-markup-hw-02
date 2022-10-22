@@ -1,7 +1,7 @@
 /* фон-колір:
 - білий основний #F5F5F5;
 - білий header #FFFFFF; rgba(255, 255, 255, 1)
-- білий наша команда #F5F4FA;
+- білий наша команда #F5F4FA (?????);
 - чорний герой; чорний footer #2F303A; rgba(47, 48, 58, 1) 
 текст-колір:
 - сірий #757575; rgba(117, 117, 117, 1)
@@ -42,10 +42,9 @@ ul {
 /* Розділ кастомних властивостей і CSS змінних */
 
 :root {
-    --main-background-color: #F5F5F5;
+    --main-background-color: #FFFFFF;
     --second-background-color: #2F303A;
-    --third-background-color: #FFFFFF;
-    --thourth-background-color: #F5F4FA;
+    --third-background-color: #F5F4FA;
     --main-text-color: #757575;
     --title-text-color: #212121;
 }
@@ -60,10 +59,6 @@ body {
 }
 
 /* Розділ оформлення хедера, навігації по сайту і фільтру */
-
-header {
-    background-color: var(--third-background-color);
-}
 
 .logoweb {
     color: #2196F3;
@@ -183,7 +178,7 @@ header {
 }
 
 .bloc-team {
-    background-color: var(--thourth-background-color);
+    background-color: var(--third-background-color);
 }
 
 .subtitle-team {
