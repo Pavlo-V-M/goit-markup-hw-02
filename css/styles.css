@@ -56,6 +56,7 @@ body {
     background-color: var(--main-background-color);
     font-family: Roboto, sans-serif;
     color: var(--main-text-color);
+    font-size: 14px;
 }
 
 /* Розділ оформлення хедера, навігації по сайту і фільтру */
@@ -70,17 +71,16 @@ body {
 
 .logo {
     font-family: Raleway, sans-serif;
-    font-style: 700;
+    font-weight: 700;
     font-size: 26px;
-    line-height: 1, 19;
-    letter-spacing: 3%;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
 }
 
 .site-nav {
-    font-style: 500;
-    font-size: 14px;
-    line-height: 1, 14;
-    letter-spacing: 2%;
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
 }
 
 .site-nav .link {
@@ -93,14 +93,18 @@ body {
 }
 
 .site-contacts {
-    font-style: 500;
-    font-size: 14px;
-    line-height: 1, 14;
-    letter-spacing: 2%;
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
 }
 
 .filter-nav .click {
     color: #212121;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.63;
+    text-align: center;
+    letter-spacing: 0.03em;
 }
 
 .filter-nav .click:hover,
@@ -123,11 +127,11 @@ body {
 
 .hero {
     background-color: var(--second-background-color);
-    font-style: 900;
+    font-weight: 900;
     font-size: 44px;
-    line-height: 1, 36;
+    line-height: 1.36;
     text-align: center;
-    letter spacing: 6%;
+    letter-spacing: 0.06em;
 }
 
 .hero h1 {
@@ -138,10 +142,10 @@ body {
     cursor: pointer;
     background-color: #2196F3;
     color: #FFFFFF;
-    font-style: 700;
+    font-weight: 700;
     font-size: 16px;
-    line-height: 1, 88;
-    letter spacing: 6%;
+    line-height: 1.88;
+    letter-spacing: 0.06em;
 }
 
 /* Розділ внутрішньо-секційного оформлення */
@@ -157,24 +161,23 @@ body {
 .title-item,
 .title-team {
     text-align: center;
-    font-style: 700;
+    font-weight: 700;
     font-size: 36px;
-    line-height: 1, 17;
-    letter-spacing: 3%;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
 }
 
 .subtitle-feature {
-    font-style: 700;
+    font-weight: 700;
     font-size: 14px;
-    line-height: 1, 14;
-    letter-spacing: 3%;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
 }
 
 .text-feature {
-    font-style: 400;
-    font-size: 14px;
-    line-height: 1, 71;
-    letter-spacing: 3%;
+    /* N.B. font-weight: 400; - додано від браузера, прописувати не треба*/
+    line-height: 1.71;
+    letter-spacing: 0.03em;
 }
 
 .bloc-team {
@@ -182,31 +185,31 @@ body {
 }
 
 .subtitle-team {
-    font-style: 500;
+    font-weight: 500;
     font-size: 16px;
-    line-height: 1, 19;
-    letter-spacing: 3%;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
 }
 
 .text-team {
-    font-style: 400;
+    /* N.B. font-weight: 400; - додано від браузера, прописувати не треба*/
     font-size: 16px;
-    line-height: 1, 19;
-    letter-spacing: 3%;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
 }
 
 .subtitle-portfolio {
-    font-style: 700;
+    font-weight: 700;
     font-size: 18px;
     line-height: 2;
-    letter-spacing: 6%;
+    letter-spacing: 0.06em;
 }
 
 .text-portfolio {
-    font-style: 400;
+    /* N.B. font-weight: 400; - додано від браузера, прописувати не треба*/
     font-size: 16px;
-    line-height: 1, 88;
-    letter-spacing: 3%;
+    line-height: 1.88;
+    letter-spacing: 0.03em;
 }
 
 /* Розділ оформлення футера */
