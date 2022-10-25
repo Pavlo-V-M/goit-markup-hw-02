@@ -92,13 +92,9 @@ body {
     color: #2196F3;
 }
 
-.site-contacts {
-    font-weight: 500;
-    line-height: 1.14;
-    letter-spacing: 0.02em;
-}
-
 .filter-nav .click {
+    background-color: #F5F4FA;
+    font-family: Roboto, sans-serif;
     color: #212121;
     font-weight: 500;
     font-size: 16px;
@@ -114,6 +110,13 @@ body {
     cursor: pointer;
 }
 
+.site-contacts {
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+}
+
 .site-contacts .contacts {
     color: #757575;
 }
@@ -127,15 +130,15 @@ body {
 
 .hero {
     background-color: var(--second-background-color);
+}
+
+.hero h1 {
+    color: #FFFFFF;
     font-weight: 900;
     font-size: 44px;
     line-height: 1.36;
     text-align: center;
     letter-spacing: 0.06em;
-}
-
-.hero h1 {
-    color: #FFFFFF;
 }
 
 .hero .hero-button {
@@ -223,5 +226,8 @@ footer .logostudio {
 }
 
 footer .address {
+    font-style: normal;
     color: #FFFFFF;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
 }
